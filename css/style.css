@@ -1,0 +1,186 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: RB;
+    outline: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*Header Start*/
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 15px;
+    align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+header ul a {
+    color: #3A3838;
+    font-size: 18px;
+    transition: 300ms;
+}
+
+header ul a:hover {
+    color: #EF4423;
+}
+
+
+.header-content {
+    padding: 42px 0 36px;
+    margin: 0 auto;
+}
+
+/*Header End*/
+
+
+
+/*Main Start*/
+
+.cards {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.cards_content {
+    display: flex;
+
+}
+
+.card_title {
+    font-family: RB;
+    font-size: 19px;
+    padding: 8px 15px;
+    color: white;
+}
+
+.cards_content p {
+    width: 320px;
+    font-size: 16px;
+    font-family: RR;
+    padding: 0 15px 15px 15px;
+    line-height: 19px;
+    color: white;
+}
+
+.card_first {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: #B71C1C;
+}
+
+.card_second {
+    width: 350px;
+    display: flex;
+    flex-direction: column-reverse;
+    background: #6A1B9A;
+}
+
+.card_third {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: #303F9F;
+}
+
+.card_fourth {
+    width: 350px;
+    display: flex;
+    flex-direction: column-reverse;
+    background: #00695C;
+}
+
+.main-title {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: RB;
+}
+
+.news-content {
+    display: flex;
+    gap: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: RB;
+    padding: 20px 0 30px;
+}
+
+.news-content p {
+    font-size: 18px;
+    line-height: 21px;
+    font-family: RR;
+    padding-bottom: 31px;
+    color: #686868;
+}
+
+.news {
+    margin-bottom: 50px;
+}
+
+.burger{
+    display: none;
+    visibility: hidden;
+}
+
+
+/*Main End*/
+
+
+
+
+/*Footer Start*/
+
+.footer__nav {
+    background: #3A3838;
+}
+
+.footer__nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0 29px;
+}
+
+.footer__nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__nav-list-link {
+    font-family: RB;
+    font-size: 18px;
+
+}
+
+.footer__nav-list a {
+    color: #FFFFFF;
+    font-size: 18px;
+    transition: 300ms;
+}
+
+.footer__nav-list a:hover {
+    color: #EF4423;
+}
+
+/*Footer End*/
